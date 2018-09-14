@@ -1,0 +1,28 @@
+For each question below, write a script and produce any output specified in the question. Wherever possible, do your work in SQL. You may use a different scripting language instead of or in addition to SQL if you prefer. 
+
+
+1. The data in tracking_activity.csv gives scheduled pickup and delivery times for a group of shipments. If a pickup or delivery is going to be late, we add a new tracking record and indicate which party is responsible for the change. We want to generate a report indicating whether each shipment is scheduled to be picked up on time and who is responsible if it is going to be late. Write a query to transform the data into the required format. 
+
+   Once you have transformed the data, demonstrate how you would present it in a report. This should be some combination of actual tables or data visualizations and/or the code used to generate them. It doesn't matter if your code doesn't run as long as it is clear what it is supposed to do.
+
+2. Again using the tracking activity data, write a script that will help you determine whether any of the responsible parties produce longer delays in pickup or delivery times. Assume that this is just a small subset of the overall data, so write your script assuming there will be a much larger input file with the same format and don't worry about interpreting the results for the sample data.
+
+3. Assume you have a list of free-text notes taken by sales reps during their calls and you know they indicate their estimate of a customer's size using hashtags: #small, #medium, or #large. Assume each note begins with the company's name followed by a newline character. Take whatever approach you consider appropriate to analyze and report on these notes.
+
+4. Assume you have a list of orders placed by customers with the following structure:
+   
+   customer_id   order_date  order_amount
+             1   2018-06-15        100.00
+             1   2018-08-02        250.00
+            50   2018-05-29        900.00
+           ...          ...           ...
+          1000   2018-05-29        550.00
+
+   write a script to produce a monthly summary indicating whether each customer spent more, less, or the same amount as the previous month. Describe any assumptions you need to make and/or additional resources you would want to use for this task.
+
+5. Examine the data in the excel file and use it to recommend potential changes to our pricing. This is an intentionally open-ended task and we are primarily interested in your process, not your conclusions.
+   - Include any tables, visualizations, or other summary output you generate.
+   - Use any tools and techniques you like. 
+   - If applicable, briefly describe any additional analysis you would recommend beyond what you have time to complete. Assume other analysts might need to repeat or modify your analysis in the future, so make an effort to document your analysis accordingly.
+   - Feel free to note areas where you would want clarification in a real-world setting, but for the sake of this exercise please use your best judgment about what these fields represent and how they relate to one another. 
+
